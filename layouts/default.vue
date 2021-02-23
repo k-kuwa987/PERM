@@ -78,7 +78,7 @@ export default {
       right: true,
       rightDrawer: false,
       title: "PERM",
-      copyright: "本位田研究室と慶應さんと愉快な仲間たち"
+      copyright: "本位田研究室"
     };
   }
 };
