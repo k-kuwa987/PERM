@@ -56,22 +56,22 @@ export default {
         {
           icon: "mdi-headset",
           title: "Admin",
-          to: "/inspire"
+          to: "/admin"
         },
         {
           icon: "mdi-account",
           title: "User",
-          to: "/inspire"
+          to: "/user"
         },
         {
           icon: "mdi-bus",
           title: "Bus",
-          to: "/inspire"
+          to: "/bus"
         },
         {
           icon: "mdi-bus-stop-uncovered",
           title: "Bus Stop",
-          to: "/inspire"
+          to: "/bus-stop"
         }
       ],
       miniVariant: false,
