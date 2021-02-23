@@ -35,7 +35,7 @@
       </v-container>
     </v-main>
     <v-footer :absolute="!fixed" app>
-      <span>&copy; {{ copyright }}</span>
+      <span>{{ copyright }}</span>
     </v-footer>
   </v-app>
 </template>
@@ -78,7 +78,7 @@ export default {
       right: true,
       rightDrawer: false,
       title: "PERM",
-      copyright: "本位田研究室"
+      copyright: "Honiden Tei Lab"
     };
   }
 };
