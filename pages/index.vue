@@ -12,5 +12,22 @@
 </template>
 
 <script>
-export default {};
+export default {
+  data: function() {
+    return {
+      posts: []
+    };
+  },
+  async asyncData({ $axios }) {
+    // 取得先のURL
+    const url = "http://localhost:1880/hogehoge";
+    // リクエスト（Get）
+    const response = await $axios.$get(url);
+    // 配列で返ってくるのでJSONにして返却
+    console.log(response);
+    return {
+      posts: response
+    };
+  }
+};
 </script>
