@@ -8,7 +8,7 @@
 export default {
   async asyncData({ $axios }) {
     // 取得先のURL
-    const url = "http://localhost:1880/hogeoge";
+    const url = "http://localhost:1880/hogehoge";
     // リクエスト（Get）
     const response = await $axios.$get(url);
     // 配列で返ってくるのでJSONにして返却
