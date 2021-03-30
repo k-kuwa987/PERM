@@ -62,17 +62,17 @@ export default {
           icon: "mdi-account",
           title: "User",
           to: "/user"
-        },
-        {
-          icon: "mdi-bus",
-          title: "Bus",
-          to: "/bus"
-        },
-        {
-          icon: "mdi-bus-stop-uncovered",
-          title: "Bus Stop",
-          to: "/bus-stop"
         }
+        // {
+        //   icon: "mdi-bus",
+        //   title: "Bus",
+        //   to: "/bus"
+        // },
+        // {
+        //   icon: "mdi-bus-stop-uncovered",
+        //   title: "Bus Stop",
+        //   to: "/bus-stop"
+        // }
       ],
       miniVariant: false,
       right: true,

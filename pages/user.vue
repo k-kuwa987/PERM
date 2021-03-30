@@ -1,6 +1,7 @@
 <template>
   <div>
     <h2>User</h2>
+    <p>一般のユーザーがスマホやバス停などから見る画像</p>
     <img v-bind:src="'data:image/jpeg;base64,' + resp.slice(0, -4)" />
   </div>
 </template>

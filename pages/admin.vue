@@ -1,6 +1,7 @@
 <template>
   <div>
     <h2>Admin</h2>
+    <p>バスの運転手や管理者が見る画像</p>
     <img v-bind:src="'data:image/jpeg;base64,' + resp.slice(0, -4)" />
   </div>
 </template>
